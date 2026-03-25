@@ -2,24 +2,27 @@ import requests
 import json
 
 def capturar():
-    # Esta es la URL más estable ahorita para el BCV
-    url = "https://ve.dolarapi.com/v1/dolares/oficial"
+    # Esta fuente nos da todos los bancos de una vez
+    url = "https://ve.dolarapi.com/v1/dolares"
     
     try:
-        response = requests.get(url, timeout=20)
+        response = requests.get(url, timeout=25)
         data = response.json()
         
-        # Creamos una lista con el formato que necesitamos
-        resultado = [{
-            "banco": "BCV Oficial",
-            "precio": data.get('promedio'),
-            "fecha": data.get('fechaActualizacion')
-        }]
+        # Filtramos para que solo guarde los bancos y el oficial
+        resultado = []
+        for item in data:
+            # Aquí puedes agregar o quitar bancos según lo que necesites
+            resultado.append({
+                "banco": item.get('nombre'),
+                "precio": item.get('promedio'),
+                "fecha": item.get('fechaActualizacion')
+            })
         
-        # Guardamos en el archivo
-        with open("bancos.json", "w") as f:
-            json.dump(resultado, f, indent=4)
-        print("¡LOGRADO!")
+        if resultado:
+            with open("bancos.json", "w") as f:
+                json.dump(resultado, f, indent=4)
+            print("✅ ¡Todos los bancos guardados!")
             
     except Exception as e:
         print(f"Error: {e}")
