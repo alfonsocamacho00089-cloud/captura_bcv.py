@@ -2,35 +2,35 @@ import requests
 import json
 
 def capturar():
-    # Usamos la API que suele tener acceso a las tasas informativas
+    # Usamos una fuente más directa para el BCV
     url = "https://pydolarvenezuela-api.vercel.app/api/v1/dollar?page=bcv"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    headers = {"User-Agent": "Mozilla/5.0"}
 
     try:
         response = requests.get(url, headers=headers, timeout=20)
-        if response.status_code == 200:
-            monitores = response.json().get('monitors', {})
-            
-            # Filtramos los bancos que te interesan (los de tus fotos)
-            bancos_pro = ["Mercantil", "Provincial", "BNC", "Banco de Venezuela"]
-            data_final = []
-            
-            for clave, info in monitores.items():
-                if any(b in info['title'] for b in bancos_pro):
-                    data_final.append({
-                        "banco": info['title'],
-                        "precio": info['price'],
-                        "fecha": info.get('last_update', 'Reciente')
-                    })
-            
-            # Guardamos el resultado en el archivo que leerá tu App
+        data = response.json()
+        
+        # Esto agarra TODOS los bancos que vengan en la lista del BCV
+        monitores = data.get('monitors', {})
+        resultado = []
+        
+        for nombre, info in monitores.items():
+            resultado.append({
+                "nombre": info.get('title'),
+                "precio": info.get('price'),
+                "actualizado": info.get('last_update')
+            })
+        
+        # Si logramos conseguir datos, los guardamos
+        if resultado:
             with open("bancos.json", "w") as f:
-                json.dump(data_final, f, indent=4)
-            print("✅ Datos actualizados con éxito en bancos.json")
+                json.dump(resultado, f, indent=4)
+            print("✅ ¡Datos guardados con éxito!")
         else:
-            print(f"❌ Error en API: {response.status_code}")
+            print("⚠️ No se consiguieron bancos en este intento")
+
     except Exception as e:
-        print(f"❌ Fallo total: {e}")
+        print(f"❌ Error: {e}")
 
 if __name__ == "__main__":
     capturar()
