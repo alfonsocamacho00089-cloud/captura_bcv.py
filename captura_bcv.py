@@ -2,7 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import urllib3
+import os
 
+precio_viejo = None
+if os.path.exists("bancos.json"):
+    with open("bancos.json", "r") as f:
+        data_vieja = json.load(f)
+        precio_viejo = data_vieja[0]['precio']
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def capturar():
@@ -33,6 +39,9 @@ def capturar():
                             "precio": precio
                         })
         
+        if resultado[0]['precio'] == precio_viejo:
+        print("El precio sigue igual. Misión abortada.")
+        return # Aquí usamos return porque estamos dentro de una función
         if resultado:
             with open("bancos.json", "w") as f:
                 json.dump(resultado, f, indent=4)
