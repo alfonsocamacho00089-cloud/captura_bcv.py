@@ -34,7 +34,7 @@ def capturar():
                             "precio": precio
                         })
     
-                  if resultado:
+        if resultado:
             with open("bancos.json", "w") as f:
                 json.dump(resultado, f, indent=4)
             print("✅ ¡Tabla capturada con nombres correctos!")
