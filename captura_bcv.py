@@ -40,7 +40,7 @@ def capturar():
                         })
         
         if resultado[0]['precio'] == precio_viejo:
-        print("El precio sigue igual. Misión abortada.")
+            print("El precio sigue igual. Misión abortada.")
         return # Aquí usamos return porque estamos dentro de una función
         if resultado:
             with open("bancos.json", "w") as f:
