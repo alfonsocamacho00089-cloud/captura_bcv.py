@@ -2,9 +2,10 @@ name: Actualizador de Tasas BCV
 
 on:
   schedule:
-    # Se corre a las 9:45 AM y 4:15 PM hora de Venezuela (aprox)
-    - cron: '45 13 * * *'
-    - cron: '15 20 * * *'
+    # Revisa a las 4:00 PM, 5:00 PM, 6:00 PM (Hora Vzla)
+    - cron: '0 20 * * *'
+    - cron: '0 21 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch: # Esto te permite darle a un botón para actualizar YA
 
 jobs:
