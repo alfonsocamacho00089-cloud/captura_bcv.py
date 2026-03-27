@@ -4,11 +4,6 @@ import json
 import urllib3
 import os
 
-precio_viejo = None
-if os.path.exists("bancos.json"):
-    with open("bancos.json", "r") as f:
-        data_vieja = json.load(f)
-        precio_viejo = data_vieja[0]['precio']
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def capturar():
@@ -33,16 +28,13 @@ def capturar():
                     nombre_banco = celdas[1].get_text(strip=True) # Cambiado a [1]
                     precio = celdas[3].get_text(strip=True).replace('.', '').replace(',', '.') # Cambiado a [3]
                     
-                    if nombre_banco and "Fecha" not in nombre_banco:
+        if nombre_banco and "Fecha" not in nombre_banco:
                         resultado.append({
                             "banco": nombre_banco,
                             "precio": precio
                         })
-        
-        if resultado[0]['precio'] == precio_viejo:
-            print("El precio sigue igual. Misión abortada.")
-        return # Aquí usamos return porque estamos dentro de una función
-        if resultado:
+    
+                  if resultado:
             with open("bancos.json", "w") as f:
                 json.dump(resultado, f, indent=4)
             print("✅ ¡Tabla capturada con nombres correctos!")
