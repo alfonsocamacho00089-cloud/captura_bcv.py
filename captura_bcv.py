@@ -28,7 +28,7 @@ def capturar():
                     nombre_banco = celdas[1].get_text(strip=True) # Cambiado a [1]
                     precio = celdas[3].get_text(strip=True).replace('.', '').replace(',', '.') # Cambiado a [3]
                     
-        if nombre_banco and "Fecha" not in nombre_banco:
+                    if nombre_banco and "Fecha" not in nombre_banco:
                         resultado.append({
                             "banco": nombre_banco,
                             "precio": precio
