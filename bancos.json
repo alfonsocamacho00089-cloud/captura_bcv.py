@@ -1,6 +1,30 @@
 [
     {
         "banco": "Banesco",
+        "precio": "480.8611"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "598.8452"
+    },
+    {
+        "banco": "Banco Exterior",
+        "precio": "575.0000"
+    },
+    {
+        "banco": "Banco Activo",
+        "precio": "489.3497"
+    },
+    {
+        "banco": "100% Banco",
+        "precio": "570.7500"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "562.2580"
+    },
+    {
+        "banco": "Banesco",
         "precio": "487.2558"
     },
     {
@@ -74,29 +98,5 @@
     {
         "banco": "BBVA Provincial",
         "precio": "550.0468"
-    },
-    {
-        "banco": "Banco de Venezuela",
-        "precio": "476.7100"
-    },
-    {
-        "banco": "Banco Sofitasa",
-        "precio": "479.2925"
-    },
-    {
-        "banco": "R4",
-        "precio": "568.7156"
-    },
-    {
-        "banco": "100% Banco",
-        "precio": "570.7500"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "507.0413"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "487.1513"
     }
 ]
