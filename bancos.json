@@ -1,5 +1,29 @@
 [
     {
+        "banco": "Banco Sofitasa",
+        "precio": "485.8049"
+    },
+    {
+        "banco": "Banco Nacional de Cr\u00e9dito BNC",
+        "precio": "555.7651"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "483.2719"
+    },
+    {
+        "banco": "Banco Activo",
+        "precio": "562.3279"
+    },
+    {
+        "banco": "Banco Exterior",
+        "precio": "478.5811"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "573.2312"
+    },
+    {
         "banco": "Banco Nacional de Cr\u00e9dito BNC",
         "precio": "551.2498"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "507.3830"
-    },
-    {
-        "banco": "Banco Exterior",
-        "precio": "596.4196"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "570.6435"
-    },
-    {
-        "banco": "Banco Nacional de Cr\u00e9dito BNC",
-        "precio": "503.7936"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "578.2435"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "547.4691"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "480.8611"
     }
 ]
