@@ -1,5 +1,29 @@
 [
     {
+        "banco": "Banesco",
+        "precio": "548.8823"
+    },
+    {
+        "banco": "Bancamiga",
+        "precio": "525.5977"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "611.0000"
+    },
+    {
+        "banco": "Banco Exterior",
+        "precio": "624.6230"
+    },
+    {
+        "banco": "BBVA Provincial",
+        "precio": "594.9383"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "591.9896"
+    },
+    {
         "banco": "Banco Mercantil",
         "precio": "494.8939"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "BBVA Provincial",
         "precio": "489.1127"
-    },
-    {
-        "banco": "Banco Nacional de Cr\u00e9dito BNC",
-        "precio": "559.8945"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "563.4301"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "584.3062"
-    },
-    {
-        "banco": "R4",
-        "precio": "577.3363"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "537.6080"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "570.7500"
     }
 ]
