@@ -1,5 +1,29 @@
 [
     {
+        "banco": "Banesco",
+        "precio": "538.2440"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "605.6388"
+    },
+    {
+        "banco": "N58 Banco Digital",
+        "precio": "503.9621"
+    },
+    {
+        "banco": "BanCaribe",
+        "precio": "541.0007"
+    },
+    {
+        "banco": "Bancamiga",
+        "precio": "600.5000"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "604.4737"
+    },
+    {
         "banco": "Bancamiga",
         "precio": "575.7378"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "534.3105"
-    },
-    {
-        "banco": "Banco Sofitasa",
-        "precio": "497.1200"
-    },
-    {
-        "banco": "BBVA Provincial",
-        "precio": "589.2168"
-    },
-    {
-        "banco": "Banco Venezolano de Cr\u00e9dito",
-        "precio": "608.9039"
-    },
-    {
-        "banco": "Banco Exterior",
-        "precio": "493.3765"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "604.7545"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "548.8823"
     }
 ]
