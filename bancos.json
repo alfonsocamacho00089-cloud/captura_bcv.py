@@ -1,6 +1,30 @@
 [
     {
         "banco": "Banesco",
+        "precio": "511.4790"
+    },
+    {
+        "banco": "Banco Exterior",
+        "precio": "585.7483"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "607.4768"
+    },
+    {
+        "banco": "Banco Sofitasa",
+        "precio": "512.5229"
+    },
+    {
+        "banco": "R4",
+        "precio": "606.1381"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "601.6539"
+    },
+    {
+        "banco": "Banesco",
         "precio": "538.2440"
     },
     {
@@ -74,29 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "539.1651"
-    },
-    {
-        "banco": "Bancamiga",
-        "precio": "525.6766"
-    },
-    {
-        "banco": "BBVA Provincial",
-        "precio": "593.0955"
-    },
-    {
-        "banco": "R4",
-        "precio": "598.4990"
-    },
-    {
-        "banco": "Banco Plaza",
-        "precio": "531.7395"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "568.0141"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "534.3105"
     }
 ]
