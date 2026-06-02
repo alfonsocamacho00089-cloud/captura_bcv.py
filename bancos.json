@@ -1,5 +1,29 @@
 [
     {
+        "banco": "Banco Mercantil",
+        "precio": "615.5200"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "589.3351"
+    },
+    {
+        "banco": "Banco Nacional de Cr\u00e9dito BNC",
+        "precio": "615.0000"
+    },
+    {
+        "banco": "Banco Plaza",
+        "precio": "599.7388"
+    },
+    {
+        "banco": "Banco Activo",
+        "precio": "576.9029"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "610.3988"
+    },
+    {
         "banco": "Bancamiga",
         "precio": "569.9909"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "Banco Mercantil",
         "precio": "611.0000"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "544.9884"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "691.2500"
-    },
-    {
-        "banco": "Banco Venezolano de Cr\u00e9dito",
-        "precio": "615.0000"
-    },
-    {
-        "banco": "Bancamiga",
-        "precio": "644.1655"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "591.7802"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "597.5367"
     }
 ]
