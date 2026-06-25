@@ -1,5 +1,25 @@
 [
     {
+        "banco": "N58 Banco Digital",
+        "precio": "620.1852"
+    },
+    {
+        "banco": "BBVA Provincial",
+        "precio": "689.0000"
+    },
+    {
+        "banco": "100% Banco",
+        "precio": "780.8700"
+    },
+    {
+        "banco": "Bancamiga",
+        "precio": ""
+    },
+    {
+        "banco": "Banco Venezolano de Cr\u00e9dito",
+        "precio": "725.0000"
+    },
+    {
         "banco": "Banesco",
         "precio": "629.7494"
     },
@@ -78,25 +98,5 @@
     {
         "banco": "Banco Nacional de Cr\u00e9dito BNC",
         "precio": "615.5200"
-    },
-    {
-        "banco": "BBVA Provincial",
-        "precio": "700.2596"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "750.5888"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "615.5200"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "667.2469"
-    },
-    {
-        "banco": "Banco Nacional de Cr\u00e9dito BNC",
-        "precio": "602.3506"
     }
 ]
