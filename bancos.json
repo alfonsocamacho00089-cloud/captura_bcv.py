@@ -20,6 +20,10 @@
         "precio": "725.0000"
     },
     {
+        "banco": "Otras Instituciones",
+        "precio": "661.0134"
+    },
+    {
         "banco": "Banesco",
         "precio": "629.7494"
     },
@@ -94,9 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "696.0676"
-    },
-    {
-        "banco": "Banco Nacional de Cr\u00e9dito BNC",
-        "precio": "615.5200"
     }
 ]
