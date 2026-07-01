@@ -1,6 +1,30 @@
 [
     {
         "banco": "BBVA Provincial",
+        "precio": "621.8162"
+    },
+    {
+        "banco": "Banco Exterior",
+        "precio": "683.2918"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "624.1090"
+    },
+    {
+        "banco": "Banco Plaza",
+        "precio": "706.9202"
+    },
+    {
+        "banco": "R4",
+        "precio": "743.7528"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "638.9632"
+    },
+    {
+        "banco": "BBVA Provincial",
         "precio": "704.2768"
     },
     {
@@ -74,29 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "629.7494"
-    },
-    {
-        "banco": "N58 Banco Digital",
-        "precio": "620.9433"
-    },
-    {
-        "banco": "100% Banco",
-        "precio": "780.4179"
-    },
-    {
-        "banco": "Banco Activo",
-        "precio": "624.5106"
-    },
-    {
-        "banco": "R4",
-        "precio": "726.2849"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "642.2561"
-    },
-    {
-        "banco": "N58 Banco Digital",
-        "precio": "607.5000"
     }
 ]
