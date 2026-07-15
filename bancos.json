@@ -12,6 +12,18 @@
         "precio": "726.6858"
     },
     {
+        "banco": "Banco Plaza",
+        "precio": "737.0000"
+    },
+    {
+        "banco": "Bancamiga",
+        "precio": "744.1070"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "752.0135"
+    },
+    {
         "banco": "BBVA Provincial",
         "precio": "721.3456"
     },
@@ -86,17 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "683.9991"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "685.9926"
-    },
-    {
-        "banco": "BBVA Provincial",
-        "precio": "685.8430"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "785.4361"
     }
 ]
