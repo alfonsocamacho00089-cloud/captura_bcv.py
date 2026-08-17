@@ -1,6 +1,30 @@
 [
     {
         "banco": "Banesco",
+        "precio": "771.9843"
+    },
+    {
+        "banco": "Banco Activo",
+        "precio": "833.3537"
+    },
+    {
+        "banco": "N58 Banco Digital",
+        "precio": "771.1500"
+    },
+    {
+        "banco": "R4",
+        "precio": "823.4309"
+    },
+    {
+        "banco": "Bancamiga",
+        "precio": "797.6556"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "794.3220"
+    },
+    {
+        "banco": "Banesco",
         "precio": "787.5359"
     },
     {
@@ -74,29 +98,5 @@
     {
         "banco": "Banesco",
         "precio": "793.0164"
-    },
-    {
-        "banco": "Banco Nacional de Cr\u00e9dito BNC",
-        "precio": "778.0287"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "789.9826"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "829.3581"
-    },
-    {
-        "banco": "R4",
-        "precio": "830.9738"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "793.5418"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "815.6820"
     }
 ]
