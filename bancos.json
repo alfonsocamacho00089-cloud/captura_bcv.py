@@ -1,5 +1,29 @@
 [
     {
+        "banco": "Banco Mercantil",
+        "precio": "787.5629"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "858.6865"
+    },
+    {
+        "banco": "BBVA Provincial",
+        "precio": "793.6961"
+    },
+    {
+        "banco": "N58 Banco Digital",
+        "precio": "806.4168"
+    },
+    {
+        "banco": "BanCaribe",
+        "precio": "887.6094"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "838.7517"
+    },
+    {
         "banco": "BBVA Provincial",
         "precio": "785.0520"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "Banco Mercantil",
         "precio": "777.4660"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "862.1868"
-    },
-    {
-        "banco": "Banco Venezolano de Cr\u00e9dito",
-        "precio": "782.4609"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "776.6305"
-    },
-    {
-        "banco": "Banco Plaza",
-        "precio": "788.8008"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "809.0649"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "787.6874"
     }
 ]
