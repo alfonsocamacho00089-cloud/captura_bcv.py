@@ -1,5 +1,29 @@
 [
     {
+        "banco": "Banco Nacional de Cr\u00e9dito BNC",
+        "precio": "793.2067"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "793.8225"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "794.9917"
+    },
+    {
+        "banco": "N58 Banco Digital",
+        "precio": "792.7335"
+    },
+    {
+        "banco": "Banco Exterior",
+        "precio": "794.9917"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "860.1614"
+    },
+    {
         "banco": "Banco Exterior",
         "precio": "916.5295"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "BBVA Provincial",
         "precio": "785.0520"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "843.5737"
-    },
-    {
-        "banco": "Banco Nacional de Cr\u00e9dito BNC",
-        "precio": "804.3308"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "785.0738"
-    },
-    {
-        "banco": "Banco Venezolano de Cr\u00e9dito",
-        "precio": "797.8949"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "852.9968"
-    },
-    {
-        "banco": "N58 Banco Digital",
-        "precio": "780.2773"
     }
 ]
