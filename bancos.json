@@ -1,5 +1,29 @@
 [
     {
+        "banco": "N58 Banco Digital",
+        "precio": "859.1918"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "936.7676"
+    },
+    {
+        "banco": "BBVA Provincial",
+        "precio": "860.2253"
+    },
+    {
+        "banco": "BanCaribe",
+        "precio": "958.3984"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "902.6253"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "911.4428"
+    },
+    {
         "banco": "Banco Mercantil",
         "precio": "859.1128"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "BBVA Provincial",
         "precio": "856.8857"
-    },
-    {
-        "banco": "N58 Banco Digital",
-        "precio": "854.6362"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "948.5281"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "902.5611"
-    },
-    {
-        "banco": "Banco Exterior",
-        "precio": "934.2444"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "919.6980"
-    },
-    {
-        "banco": "BBVA Provincial",
-        "precio": "854.5126"
     }
 ]
