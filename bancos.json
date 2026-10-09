@@ -1,5 +1,29 @@
 [
     {
+        "banco": "N58 Banco Digital",
+        "precio": "876.0000"
+    },
+    {
+        "banco": "Banco Mercantil",
+        "precio": "917.6289"
+    },
+    {
+        "banco": "BBVA Provincial",
+        "precio": "923.0717"
+    },
+    {
+        "banco": "Banco Venezolano de Cr\u00e9dito",
+        "precio": "893.6329"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "964.6556"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "944.2434"
+    },
+    {
         "banco": "BBVA Provincial",
         "precio": "913.8318"
     },
@@ -74,29 +98,5 @@
     {
         "banco": "BBVA Provincial",
         "precio": "871.4187"
-    },
-    {
-        "banco": "N58 Banco Digital",
-        "precio": "866.7252"
-    },
-    {
-        "banco": "Banesco",
-        "precio": "867.9203"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "871.4186"
-    },
-    {
-        "banco": "R4",
-        "precio": "914.3657"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "890.3455"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "866.5894"
     }
 ]
