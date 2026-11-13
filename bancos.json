@@ -1,6 +1,30 @@
 [
     {
         "banco": "Banco Mercantil",
+        "precio": "922.4346"
+    },
+    {
+        "banco": "BBVA Provincial",
+        "precio": "945.9199"
+    },
+    {
+        "banco": "Banesco",
+        "precio": "1025.7148"
+    },
+    {
+        "banco": "BanCaribe",
+        "precio": "1017.7096"
+    },
+    {
+        "banco": "Banco Sofitasa",
+        "precio": "941.3248"
+    },
+    {
+        "banco": "Otras Instituciones",
+        "precio": "985.9495"
+    },
+    {
+        "banco": "Banco Mercantil",
         "precio": "970.0000"
     },
     {
@@ -74,29 +98,5 @@
     {
         "banco": "BBVA Provincial",
         "precio": "963.4907"
-    },
-    {
-        "banco": "Banco Mercantil",
-        "precio": "897.1180"
-    },
-    {
-        "banco": "N58 Banco Digital",
-        "precio": "895.6697"
-    },
-    {
-        "banco": "Banco Exterior",
-        "precio": "966.8552"
-    },
-    {
-        "banco": "BanCaribe",
-        "precio": "1007.8433"
-    },
-    {
-        "banco": "Otras Instituciones",
-        "precio": "959.1279"
-    },
-    {
-        "banco": "BBVA Provincial",
-        "precio": "893.2673"
     }
 ]
